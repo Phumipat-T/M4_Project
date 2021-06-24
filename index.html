@@ -39,26 +39,39 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items: center;">
-                    <li class="nav-item" style="margin-left: 550px;">
+                    <center>
+                    <form class="d-flex" style="margin-left: 500px;  align-items: center;">
+                        <input class="form-control me-2 bg-dark text-white" id="searchinput" type="search"
+                            placeholder="Insert Movie Name" aria-label="Search">
+                        <button class="btn btn-outline-danger btn-dark" id="searchbtn" type="submit"
+                            style="font-family: monospace; margin-left: 0px;"><b>SEARCH</b></button>
+                    </form>
+                    </center>
+                    <li class="nav-item" style="margin-left: 660px;">
                         <a class="nav-link active" aria-current="page" id="homebtn" href="index.html">
-                            <img src="images/home.png" style="width: 100px; height: 50px;">
+                            <!--img src="images/home.png" style="width: 100px; height: 50px;"-->
+                            <button class="btn btn-outline-danger btn-dark" id="searchbtn" type="submit"
+                                style="font-family: monospace;"><b>HOME</b></button>
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" id="favbtn" href="#">
-                            <img src="images/favorites.png" style="width: 120px; height: 50px;">
+                            <!--img src="images/favorites.png" style="width: 120px; height: 50px;"-->
+                            <button class="btn btn-outline-danger btn-dark" id="searchbtn" type="submit"
+                                style="font-family: monospace;"><b>FAVORITES</b></button>
                         </a>
                     </li>
                 </ul>
-                <form class="d-flex">
+                <!--form class="d-flex">
                     <input class="form-control me-2 bg-gray" id="searchinput" type="search"
                         placeholder="Insert Movie Name" aria-label="Search">
-                    <button class="btn btn-outline-danger btn-dark" id="searchbtn" type="submit"><b>Search</b></button>
-                </form>
+                    <button class="btn btn-outline-danger btn-dark" id="searchbtn" type="submit" style="font-family: monospace;"><b>SEARCH</b></button>
+                </form-->
             </div>
         </div>
     </nav>
-    
+
     <div id="hidehome">
         <div id="carouselExampleDark" class="carousel carousel-light slide mx-auto" data-bs-ride="carousel"
             style="width: 100%; height: 70%;">
@@ -71,25 +84,25 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
+                <div class="carousel-item active" data-bs-interval="4000">
                     <img src="images/movie1.jpg" style="width: 1600px; height: 900px;" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>Welcome!</h5>
+                        <p>to the cinema let's enjoy! your movie times!.</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="4000">
                     <img src="images/movie2.jpg" style="width: 1600px; height: 900px;" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Get Ready!</h5>
+                        <p>Are you ready?, Let's fun together!</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000">
+                <div class="carousel-item" data-bs-interval="5000">
                     <img src="images/movie3.png" style="width: 1600px; height: 900px;" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Movie times! </h5>
+                        <p>Good movies, popular series and cartoons.</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +118,7 @@
             </button>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="row" id="showSearch">
         </div>
